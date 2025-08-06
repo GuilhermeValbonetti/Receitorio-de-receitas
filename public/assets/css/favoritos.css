@@ -1,0 +1,188 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-color: #C70039;
+        color: white;
+        padding: 5px 1px 1px 2px;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: xx-large;
+        font-weight: 650;
+    }
+
+    #logo {
+        width: 6%;
+    }
+
+    .header {
+        background-color: #C70039;
+        color: white;
+        text-align: center;
+    }
+
+    /*links*/
+    .nav-cabeçalho {
+        margin-left: 5rem;
+        padding: 0 20rem;
+    }
+
+    .nav-cabeçalho h6 {
+        color: white;
+        font-weight: 700;
+    }
+
+    .nav-cabeçalho a {
+        text-decoration: none;
+    }
+
+    .nav-cabeçalho a h6:hover {
+        color: blue;
+
+        #btn_logout:hover {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+
+    /* Seção de pesquisa */
+    .buscar {
+        text-align: center;
+        padding: 20px;
+        background: #f8f8f8;
+    }
+
+    .buscar h2 {
+        font-size: x-large;
+        font-weight: 650;
+    }
+
+    .forma input {
+        padding: 10px;
+        width: 30%;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .buscar button {
+        padding: 10px 15px;
+        background: #C70039;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    #sugestoes {
+        position: absolute;
+        background: white;
+        max-width: 300px;
+        border: 1px solid #ccc;
+        z-index: 1000;
+        padding: 5px;
+    }
+
+    #sugestoes div {
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    #sugestoes div:hover {
+        background-color: #f0f0f0;
+    }
+    /* Área principal */
+    .titulo-principal {
+        padding: 20px;
+    }
+
+    .titulo-principal h2 {
+        font-size: x-large;
+        font-weight: 650;
+    }
+
+
+    .principal {
+        padding: 0 2rem;
+    }
+
+    .cartão {
+        background: white;
+        padding: 20px;
+        margin: 0 0 0 2rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+
+    .cartão a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .cartão img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .cartão h3 {
+        margin: 15px 0;
+        font-size: larger;
+        font-weight: 650;
+    }
+
+    .cartão p {
+        font-weight: 460;
+    }
+
+    .favoritar {
+        background: #ff6347;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .favoritar:hover {
+        color: blue;
+    }
+    /* Rodapé */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0px 1px 0px;
+    margin: 5px 0 0 0;
+}
+
+.nav-redes-sociais h6 {
+    color: white;
+    font-size: small
+}
+
+.nav-redes-sociais a {
+    text-decoration: none;
+}
+
+.nav-redes-sociais img {
+    width: 5%;
+}
+
+.direitos-reservados {
+    margin: 0;
+}

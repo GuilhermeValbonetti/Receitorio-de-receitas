@@ -1,0 +1,166 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-color: #C70039;
+        color: white;
+        padding: 5px 1px 1px 2px;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: xx-large;
+        font-weight: 650;
+    }
+
+    #logo {
+        width: 6%;
+    }
+
+    .header {
+        background-color: #C70039;
+        color: white;
+        text-align: center;
+    }
+/*links*/
+    .nav-cabeçalho {
+        margin-left: 5rem;
+        padding: 0 20rem;
+    }
+
+    .nav-cabeçalho h6 {
+        color: white;
+        font-weight: 700;
+    }
+
+    .nav-cabeçalho a {
+        text-decoration: none;
+    }
+
+    .nav-cabeçalho a h6:hover {
+        color: blue;
+    }
+
+    #btn_logout:hover {
+            color: blue;
+            cursor: pointer;
+        }
+
+    /*tela do crud*/
+    
+
+
+    /* Rodapé */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0px 1px 0px;
+    margin: 5px 0 0 0;
+}
+
+.nav-redes-sociais h6 {
+    color: white;
+    font-size: small
+}
+
+.nav-redes-sociais a {
+    text-decoration: none;
+}
+
+.nav-redes-sociais img {
+    width: 5%;
+}
+
+.direitos-reservados {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    h1 {
+        margin: 0 2rem 0 0;
+    }
+
+    .col-1 {
+        display: none;
+    }
+
+    .col-2 {
+        margin: 0 .5rem;
+    }
+
+    .nav-cabeçalho {
+        margin: 0 0 0 1rem;
+        padding: 0;
+        font-size: small;
+    }
+
+    .nav-cabeçalho h6 {
+        font-size: small;
+        margin: 0 1rem;
+    }
+
+    #logo {
+        margin: 0 2rem 0 0;
+        width: 15%;
+    }
+
+    .cabecalho h1 {
+        padding-bottom: 0;
+        font-size: x-large;
+    }
+
+    .footer {
+        margin:0;
+    }
+
+    .footer img {
+        width: 12%;
+    }
+
+    .footer p {
+        font-size: small;
+    }
+
+}
+
+/*Comportamento tablets*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .principal {
+        width: 5rem;
+    }
+
+    .container-principal {
+        padding: 0 0 2rem 0;
+    }
+
+    .nav-cabeçalho {
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    #logo {
+        width: 10%;
+    }
+
+}

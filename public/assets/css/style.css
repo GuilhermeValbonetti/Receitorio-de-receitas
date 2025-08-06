@@ -1,0 +1,342 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-color: #C70039;
+        color: white;
+        padding: 5px 1px 1px 2px;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: xx-large;
+        font-weight: 650;
+    }
+
+    #logo {
+        width: 6%;
+    }
+
+    .header {
+        background-color: #C70039;
+        color: white;
+        text-align: center;
+    }
+
+    /*links*/
+    .nav-cabeçalho {
+        margin-left: 5rem;
+        padding: 0 20rem;
+    }
+
+    .nav-cabeçalho h6 {
+        color: white;
+        font-weight: 700;
+    }
+
+    .nav-cabeçalho a {
+        text-decoration: none;
+    }
+
+    .nav-cabeçalho a h6:hover {
+        color: blue;
+
+        #btn_logout:hover {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+
+    /* Seção de pesquisa */
+    .buscar {
+        text-align: center;
+        padding: 20px;
+        background: #f8f8f8;
+    }
+
+    .buscar h2 {
+        font-size: x-large;
+        font-weight: 650;
+    }
+
+    .forma input {
+        padding: 10px;
+        width: 30%;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .buscar button {
+        padding: 10px 15px;
+        background: #C70039;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    #sugestoes {
+        position: absolute;
+        background: white;
+        max-width: 300px;
+        border: 1px solid #ccc;
+        z-index: 1000;
+        padding: 5px;
+    }
+
+    #sugestoes div {
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    #sugestoes div:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Carrossel */
+    .carousel-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 10px;
+
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #fffaf5;
+    }
+
+    .carousel-caption {
+        bottom: 30px;
+        color: #333;
+        text-shadow: none;
+    }
+
+    .carousel-caption h5 {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .carousel p {
+        color: #333;
+    }
+
+    .carousel-caption p {
+        margin-bottom: 0.5rem;
+    }
+
+    .carousel-item img {
+        max-height: 450px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 16px;
+        transition: transform 0.3s ease;
+    }
+
+    /* Área principal */
+    .titulo-principal {
+        padding: 20px;
+    }
+
+    .titulo-principal h2 {
+        font-size: x-large;
+        font-weight: 650;
+    }
+
+
+    .principal {
+        padding: 0 2rem;
+    }
+
+    .cartão {
+        background: white;
+        padding: 20px;
+        margin: 0 0 0 2rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+
+    .cartão a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .cartão img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .cartão h3 {
+        margin: 15px 0;
+        font-size: larger;
+        font-weight: 650;
+    }
+
+    .cartão p {
+        font-weight: 460;
+    }
+
+    .favoritar {
+        background: #ff6347;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .favoritar:hover {
+        color: blue;
+    }
+
+    /* Rodapé */
+    .footer {
+        background: black;
+        color: white;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .footer h5 {
+        color: white;
+    }
+
+    .footer h6 {
+        color: blue;
+    }
+
+    .minha-linha {
+        border: none;
+        height: 1px;
+        background: white;
+        margin: 1px 0 15px 0;
+        opacity: 1;
+    }
+
+    #Minhafoto {
+        width: 70px;
+        height: auto;
+        border: 1px solid white;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer p {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+    .sobre-section,
+    .autoria-section {
+        margin-bottom: 15px;
+    }
+
+    /*Comportamento Celular*/
+    @media screen and (max-width: 767px) {
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+
+        h1 {
+            margin: 0 2rem 0 0;
+        }
+
+        .col-1 {
+            display: none;
+        }
+
+        .col-2 {
+            margin: 0 .5rem;
+        }
+
+        .nav-cabeçalho {
+            margin: 0 0 0 1rem;
+            padding: 0;
+            font-size: small;
+        }
+
+        .nav-cabeçalho h6 {
+            font-size: small;
+            margin: 0 1rem;
+        }
+
+        #logo {
+            margin: 0 1rem 0 0;
+            width: 15%;
+        }
+
+        .cabecalho h1 {
+            padding-bottom: 0;
+            font-size: x-large;
+        }
+
+        .titulo-principal {
+            padding: 0 0 0 0;
+            margin: 1rem 0 0 0;
+        }
+
+        .footer {
+            margin: 0;
+        }
+
+        .footer img {
+            width: 12%;
+        }
+
+        .footer p {
+            font-size: small;
+        }
+
+    }
+
+    /*Comportamento tablets*/
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+        .principal {
+            width: 5rem;
+        }
+
+        .container-principal {
+            padding: 0 0 2rem 0;
+        }
+
+        .nav-cabeçalho {
+            margin: 0 1rem 0 5rem;
+            padding: 0 1rem;
+        }
+
+        #logo {
+            width: 10%;
+        }
+
+    }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diretório de Receitas</title>
+    <link rel="stylesheet" href="/public/assets/css/favoritos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="icon" href="/public/assets/img/Logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container-fluid cabecalho text-center">
+           <a href="index.html"><img id="logo" src="/public/assets/img/Logo.png" alt="Logo"></img></a>
+            <div class="row">
+                <div class="col-12"></div>
+            </div>
+        </div>
+
+        <!-- Nome do Site -->
+        <div class="container-fluid cabecalho text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Panelando com o Gui</h1>
+                </div>
+            </div>
+        </div>
+
+         <!-- Links nav -->
+        <nav class="nav-cabeçalho">
+            <div class="container-fluid links text-center">
+                <div class="row">
+                    <div class="col-2"><a href="favoritos.html">
+                            <h6>Entradas</h6>
+                        </a></div>
+                    <div class="col-1">|</div>
+                    <div class="col-2"><a href="">
+                            <h6>Pratos Principais</h6>
+                        </a></div>
+                    <div class="col-1">|</div>
+                    <div class="col-2"><a href="">
+                            <h6>Sobremesa</h6>
+                        </a></div>
+                    <div class="col-1">|</div>
+                    <div class="col-2">
+                        <button id="btn_logout" class="btn btn-link p-0" style="color: inherit; text-decoration: none;">
+                            <h6>Logout</h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Titulo da Área Principal -->
+    <div class="titulo-principal">
+        <div class="container-fluid tituloprincipal text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Meus Favoritos</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Área Principal -->
+    <main class="container-principal">
+        <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <article class="cartão">
+                    <a href="detalhes.html?id=1">
+                        <img src="/public/assets/img/torta.png" alt="torta">
+                        <h3>Torta de Limão</h3>
+                        <p> Uma sobremesa irresistível para qualquer ocasião.</p>
+                    </a>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <article class="cartão">
+                    <a href="detalhes.html?id=2">
+                        <img src="/public/assets/img/quinoa.png" alt="Quinoa">
+                        <h3>Salada de Quinoa</h3>
+                        <p>Uma deliciosa opção leve.</p>
+                    </a>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <article class="cartão">
+                    <a href="detalhes.html?id=3">
+                        <img src="/public/assets/img/carbonara.png" alt="macarrão">
+                        <h3>Macarrão à Carbonara</h3>
+                        <p>Gostoso e suculento.</p>
+                    </a>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <article class="cartão">
+                    <a href="detalhes.html?id=4">
+                        <img src="/public/assets/img/Strogonoff.png" alt="strogonoff">
+                        <h3>Strogonoff de Frango</h3>
+                        <p>Simples e gostoso de fazer.</p>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </main>
+  <!--Rodapé-->
+    <footer class="footer">
+        <nav class="nav-redes-sociais">
+            <div class="container-fluid footer text-center">
+                <div class="row">
+                    <div class="col-4"><a href="" target="_blank">
+                            <img src="/public/assets/img/instagram.png" alt="instagram">
+                            <h6>instagram</h6>
+                        </a></div>
+                    <div class="col-4"><a href="" target="_blank">
+                            <img src="/public/assets/img/contato.png" alt="Contato">
+                            <h6>Contato</h6>
+                        </a></div>
+                    <div class="col-4"><a href="" target="_blank">
+                            <img src="/public/assets/img/twitter.png" alt="twitter">
+                            <h6>Twitter</h6>
+                        </a></div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid direitos text-center">
+            <div class="row"></div>
+            <div class="direitos-reservados">
+                <div class="col-12">
+                    <p>&copy; 2025 Panelando com o Gui. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+    <script src="/public/assets/js/telafavoritos.js"></script>
+    <script src="/public/assets/js/login.js"></script>
+</body>
+
+</html>

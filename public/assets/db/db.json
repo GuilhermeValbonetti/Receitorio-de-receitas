@@ -1,0 +1,82 @@
+{
+  "receitas":[
+    {
+      "id": "1",
+      "titulo": "Torta de Limão",
+      "imagem": "/public/assets/img/torta.png",
+      "ingredientes": [
+        "200g de biscoito de maisena",
+        "100g de manteiga derretida",
+        "1 lata de leite condensado",
+        "1 caixa de creme de leite",
+        "suco de 4 limões",
+        "3 claras",
+        "3 colheres de açúcar",
+        "raspas de limão para decorar"
+      ],
+      "modoPreparo": "Triture 200g de biscoito de maisena e misture com 100g de manteiga derretida, forrando uma forma; leve à geladeira por 15 minutos. Enquanto isso, bata 1 lata de leite condensado, 1 caixa de creme de leite e o suco de 4 limões peneirados até ficar homogêneo, despeje sobre a massa; depois, bata 3 claras com 3 colheres de açúcar até formar merengue, espalhe sobre o recheio, decore com raspas de limão e leve à geladeira por 2 horas antes de servir.",
+      "categoria": "Sobremesa"
+    },
+    {
+      "id": "2",
+      "titulo": "Salada de Quinoa",
+      "imagem": "/public/assets/img/quinoa.png",
+      "ingredientes": [
+        "100g de quinoa",
+        "1 pepino",
+        "tomate cereja",
+        "salsinha",
+        "azeite",
+        "sal a gosto"
+      ],
+      "modoPreparo": "Coza a quinoa e deixe esfriar. Misture com pepino e tomate picados, adicione salsinha, azeite e sal. Sirva fria."
+    },
+    {
+      "id": "3",
+      "titulo": "Macarrão à Carbonara",
+      "imagem": "/public/assets/img/carbonara.png",
+      "ingredientes": [
+        "250g de macarrão",
+        "150g de bacon",
+        "2 ovos",
+        "100g de queijo parmesão",
+        "sal e pimenta a gosto"
+      ],
+      "modoPreparo": "Cozinhe o macarrão e reserve. Frite o bacon até ficar crocante. Em uma tigela, bata os ovos com o queijo parmesão e reserve. Misture o macarrão com o bacon e, por último, adicione a mistura de ovos com queijo. Tempere com sal e pimenta a gosto."
+    },
+    {
+      "id": "4",
+      "titulo": "Strogonoff de Frango",
+      "imagem": "/public/assets/img/strogonoff.png",
+      "ingredientes": [
+        "500g de peito de frango",
+        "1 lata de creme de leite",
+        "1 cebola",
+        "2 dentes de alho",
+        "1 colher de sopa de ketchup",
+        "sal e pimenta a gosto"
+      ],
+      "modoPreparo": "Corte o frango em cubos e frite junto com a cebola e o alho. Adicione o ketchup, o creme de leite, o sal e a pimenta. Cozinhe até engrossar e sirva com arroz e batata palha."
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "João",
+      "email": "joao@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": "d6af",
+      "nome": "Guilherme Vinicius Valbonetti Andrade Silva",
+      "email": "guivalbonete13@gmail.com",
+      "senha": "louco1234"
+    },
+    {
+      "id": "bcbb",
+      "nome": "vitin",
+      "email": "vitin@gmail.com",
+      "senha": "vitin1234"
+    }
+  ]
+}
