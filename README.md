@@ -51,7 +51,7 @@ Projeto acadêmico de um site de receitas culinárias feito com HTML, CSS, JavaS
 
 1. Clone o repositório, entre na pasta, instale o JSON Server e inicie o backend:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/GuilhermeValbonetti/receitorio-de-receitas.git
 cd cd receitorio-de-receitas
 npm install -g json-server
 json-server --watch db.json --port 3000
