@@ -2,8 +2,6 @@
 
 Projeto acadêmico de um site de receitas culinárias feito com HTML, CSS, JavaScript e JSON Server.
 
-> **Nome criativo inspirado em repositório + caderno de receitas = Receitório 😄**
-
 ---
 
 ## 🔎 Funcionalidades
